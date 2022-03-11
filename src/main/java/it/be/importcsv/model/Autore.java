@@ -6,8 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
@@ -16,32 +14,27 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Entity
 @Data
+@Entity
 @AllArgsConstructor
-public class Book {
+public class Autore {
 
-	
+	public Autore(String nome, String cognome) {
+		this.nome=nome;
+		this.cognome=cognome;
+	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String titolo;
-	private Tipo tipo;
-	private Genere genere;
-//	@ManyToMany
+	private String nome;
+	private String cognome;
+//	@ManyToMany(mappedBy = "autori")
 //	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-//	private List<Autore> autori;
+//	private List<Book> books;
 	
 	@ManyToMany(mappedBy = "autori")
 	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 	private List<CasaEditrice> editori;
 	
-	
-	public Book(String titolo, String genere, String tipo) {
-		this.titolo=titolo;
-		this.genere= Genere.valueOf(genere);
-		
-		this.tipo= Tipo.valueOf(tipo);
-	}
 }

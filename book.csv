@@ -1,5 +1,5 @@
-titolo,autore
-I robot,Asimov
-Eragon,Paolini
-300,Miller
-Berserk,Miura
+titolo,genere,tipo
+I robot,AZIONE,CARTACEO
+Eragon,FANTASY,WEB
+300,FUMETTI,EBOOK
+Berserk,FUMETTI,CARTACEO
