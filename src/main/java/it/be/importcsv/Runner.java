@@ -82,12 +82,8 @@ public class Runner implements CommandLineRunner {
 		    	
 		    	libri = casa.getBooks();
 		    	libri.add(bookrepo.findById(Long.valueOf(values[2])).get());
-		    
-		    	
 		    	casa.setBooks(libri);
-		    	casarepo.save(casa);
-		    	
-		    	casa= casarepo.findById(Long.valueOf(values[0])).get();
+		
 
 		    	autori = casa.getAutori();
 		    	autori.add(autorepo.findById(Long.valueOf(values[1])).get());

@@ -2990,3 +2990,95 @@ Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously
 2022-03-11 16:57:00.969  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-03-11 16:57:00.973  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Started ImportCsvApplication in 0.525 seconds (JVM running for 98.342)
 2022-03-11 16:57:01.033  INFO 8584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-11 16:59:20.596  INFO 8584 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 16:59:20.597  INFO 8584 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-03-11 16:59:20.598  INFO 8584 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-03-11 16:59:20.641  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Starting ImportCsvApplication using Java 16.0.2 on DESKTOP-COCPM74 with PID 8584 (C:\Java\Workspace\ImportCSV\target\classes started by ant-1 in C:\Java\Workspace\ImportCSV)
+2022-03-11 16:59:20.641  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-11 16:59:20.728  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 16:59:20.738  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+2022-03-11 16:59:20.787  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-11 16:59:20.788  INFO 8584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-11 16:59:20.788  INFO 8584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-11 16:59:20.799  INFO 8584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-11 16:59:20.799  INFO 8584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2022-03-11 16:59:20.821  INFO 8584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-11 16:59:20.823  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-03-11 16:59:20.854  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-03-11 16:59:20.854  INFO 8584 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-11 16:59:21.062  INFO 8584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 16:59:21.062  INFO 8584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 16:59:21.133  WARN 8584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:59:21.176  INFO 8584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-11 16:59:21.182  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-11 16:59:21.185  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Started ImportCsvApplication in 0.561 seconds (JVM running for 238.554)
+2022-03-11 16:59:21.230  INFO 8584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-11 16:59:47.011  INFO 8584 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 16:59:47.012  INFO 8584 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-03-11 16:59:47.013  INFO 8584 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-03-11 16:59:47.054  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Starting ImportCsvApplication using Java 16.0.2 on DESKTOP-COCPM74 with PID 8584 (C:\Java\Workspace\ImportCSV\target\classes started by ant-1 in C:\Java\Workspace\ImportCSV)
+2022-03-11 16:59:47.055  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-11 16:59:47.134  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 16:59:47.140  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+2022-03-11 16:59:47.181  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-11 16:59:47.181  INFO 8584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-11 16:59:47.181  INFO 8584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-11 16:59:47.191  INFO 8584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-11 16:59:47.191  INFO 8584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2022-03-11 16:59:47.206  INFO 8584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-11 16:59:47.209  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-03-11 16:59:47.239  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-03-11 16:59:47.240  INFO 8584 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-11 16:59:47.423  INFO 8584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 16:59:47.423  INFO 8584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 16:59:47.477  WARN 8584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:59:47.517  INFO 8584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-11 16:59:47.522  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-11 16:59:47.526  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Started ImportCsvApplication in 0.487 seconds (JVM running for 264.895)
+2022-03-11 16:59:47.566  INFO 8584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-11 17:00:12.312  INFO 8584 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 17:00:12.312  INFO 8584 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-03-11 17:00:12.314  INFO 8584 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-03-11 17:00:12.356  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Starting ImportCsvApplication using Java 16.0.2 on DESKTOP-COCPM74 with PID 8584 (C:\Java\Workspace\ImportCSV\target\classes started by ant-1 in C:\Java\Workspace\ImportCSV)
+2022-03-11 17:00:12.356  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-11 17:00:12.442  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 17:00:12.449  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2022-03-11 17:00:12.495  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-11 17:00:12.496  INFO 8584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-11 17:00:12.496  INFO 8584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-11 17:00:12.506  INFO 8584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-11 17:00:12.506  INFO 8584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2022-03-11 17:00:12.524  INFO 8584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-11 17:00:12.527  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-03-11 17:00:12.559  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-03-11 17:00:12.560  INFO 8584 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-11 17:00:12.752  INFO 8584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 17:00:12.752  INFO 8584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 17:00:12.807  WARN 8584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 17:00:12.847  INFO 8584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-11 17:00:12.856  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-11 17:00:12.859  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Started ImportCsvApplication in 0.519 seconds (JVM running for 290.228)
+2022-03-11 17:00:12.899  INFO 8584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-11 17:01:03.106  INFO 8584 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 17:01:03.106  INFO 8584 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-03-11 17:01:03.108  INFO 8584 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-03-11 17:01:03.161  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Starting ImportCsvApplication using Java 16.0.2 on DESKTOP-COCPM74 with PID 8584 (C:\Java\Workspace\ImportCSV\target\classes started by ant-1 in C:\Java\Workspace\ImportCSV)
+2022-03-11 17:01:03.162  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-11 17:01:03.244  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 17:01:03.250  INFO 8584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+2022-03-11 17:01:03.291  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-11 17:01:03.291  INFO 8584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-11 17:01:03.291  INFO 8584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-11 17:01:03.301  INFO 8584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-11 17:01:03.301  INFO 8584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2022-03-11 17:01:03.317  INFO 8584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-11 17:01:03.320  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-03-11 17:01:03.353  INFO 8584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-03-11 17:01:03.353  INFO 8584 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-11 17:01:03.548  INFO 8584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 17:01:03.548  INFO 8584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 17:01:03.598  WARN 8584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 17:01:03.639  INFO 8584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-11 17:01:03.647  INFO 8584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-11 17:01:03.649  INFO 8584 --- [restartedMain] it.be.importcsv.ImportCsvApplication     : Started ImportCsvApplication in 0.502 seconds (JVM running for 341.018)
+2022-03-11 17:01:03.689  INFO 8584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
